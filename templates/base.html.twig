@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
-        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+
         {% block stylesheets %}
-            {{ encore_entry_link_tags('app') }}
+            {{ encore_entry_link_tags('css/app') }}
         {% endblock %}
 
         {% block javascripts %}
-            {{ encore_entry_script_tags('app') }}
+            {{ encore_entry_script_tags('js/app') }}
         {% endblock %}
     </head>
-    <body>
-        {% block header 'Mon header' %}
-        {% block content 'Mon header' %}
-        {% block aside 'Ma sidebar' %}
+    <body class="bg-gray-200">
+        {% block header %}
+            <header class="text-center py-[1.5rem] px-0">
+                <a href="#">
+                    <img src="{{ asset('build/images/logo.svg') }}"
+                         alt="TefDesign"
+                         class="w-[150px] h-auto inline-block">
+                </a>
+            </header>
+        {% endblock header %}
+        {% block content 'Mon contenu' %}
+        {% block aside '' %}
         {% block footer 'Mon footer' %}
     </body>
 </html>
