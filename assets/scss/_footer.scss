@@ -1,0 +1,31 @@
+/* Footer */
+
+footer {
+    font-size: 1.2rem;
+    background-color: #000;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+    padding: 0;
+}
+footer .textLeft {
+    margin-right: 15px;
+}
+footer .textRight {
+    margin-left: 15px;
+}
+footer .fa {
+    font-size: 1.5rem;
+}
+footer .textRight a + a {
+    margin-left: 15px;
+}
+footer .fa-twitter {
+    color: #0084b4;
+}
+footer .fa-rss {
+    color: #f57d31;
+}

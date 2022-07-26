@@ -1,0 +1,29 @@
+/* Pager */
+
+.wrapPager {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.wrapPager a {
+    color: #333;
+    transition: all 0.5s;
+}
+.wrapPager a:hover {
+    color: #b71c1c;
+}
+.wrapPager .sep {
+    height: 10px;
+    width: 1px;
+    border-left: 2px solid #333;
+    display: inline-block;
+}
+.site__navigation__prev {
+    margin-right: 15px;
+    display: inline-block;
+}
+.site__navigation__next {
+    display: inline-block;
+    margin-left: 15px;
+}

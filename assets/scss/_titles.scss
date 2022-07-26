@@ -1,0 +1,27 @@
+/* TITLE */
+
+h1.line {
+    font-size: 28px;
+    margin-bottom: 30px;
+    position: relative;
+}
+h1.line span {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 0;
+    position: relative;
+}
+h1.line:before {
+    content: "";
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #bdbdbd;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+}
+h1.line .wrapCat {
+    display: block;
+    float: right;
+    top: 8px;
+    position: relative;
+}

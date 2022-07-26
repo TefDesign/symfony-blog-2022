@@ -1,0 +1,13 @@
+.btnMain {
+    background-color: #b71c1c;
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+    padding: 10px 50px;
+}
+.btnMain:after {
+    content: "❯";
+    position: absolute;
+    right: 0;
+    top: 0;
+}

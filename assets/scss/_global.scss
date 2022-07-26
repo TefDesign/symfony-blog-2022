@@ -1,0 +1,50 @@
+/* GLOBAL */
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Noto Sans HK", sans-serif;
+    font-weight: 200;
+    font-size: 1.6rem;
+    /* background: url("../images/grey-bruit-01.png") left top; */
+    background-color: #e3e3e3;
+}
+a {
+    color: #b71c1c;
+    text-decoration: dotted;
+    transition: all 0.5s ease;
+}
+a:hover {
+    color: #0d47a1;
+    text-decoration: dotted;
+}
+
+.wrapReadmore {
+    text-align: right;
+}
+.readMore {
+    text-transform: uppercase;
+    padding: 15px;
+    display: inline-block;
+}
+.readMore:after {
+    content: "❯";
+    margin-left: 1px;
+}
+
+.wrapCat ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.5rem;
+}
+.wrapCat li {
+    padding-left: 15px;
+    background-color: #ffffff;
+}
+.wrapCat a {
+    color: #ffffff;
+    background-color: #b71c1c;
+    padding: 3px 15px;
+    font-size: 1.2rem;
+}

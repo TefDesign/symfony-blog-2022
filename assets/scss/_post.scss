@@ -1,0 +1,39 @@
+/* Article post Single */
+
+.wrapSingle {
+    background-color: white;
+    padding: 20px 0;
+}
+.wrapSingle .wrapImg {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.wrapSingle .wrapImg img {
+    display: inline-block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.wrapSingle img {
+    display: inline-block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.wrapSingle h1.line {
+    margin-bottom: 0;
+}
+.wrapSingle .postMeta {
+    margin-bottom: 30px;
+}
+
+article.single .postMeta {
+    padding-left: 0;
+}
+article.single .wrapCat {
+    background-color: #fff;
+}
+article.single .wrapCat li {
+    display: inline-block;
+}
